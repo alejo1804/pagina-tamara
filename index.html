@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary":"#032517","secondary":"#735c00","tertiary-fixed-dim":"#ffb3b1","on-secondary-fixed":"#241a00","on-secondary":"#ffffff","on-secondary-fixed-variant":"#574500","secondary-fixed":"#ffe088","inverse-primary":"#abcfb8","surface-container-lowest":"#ffffff","tertiary-container":"#6c0c18","primary-container":"#1b3b2b","on-error-container":"#93000a","outline-variant":"#c1c8c2","error":"#ba1a1a","on-tertiary":"#ffffff","on-surface":"#1c1c19","tertiary-fixed":"#ffdad8","error-container":"#ffdad6","on-primary-fixed-variant":"#2d4d3c","on-error":"#ffffff","surface-container-high":"#ebe8e3","tertiary":"#48000a","secondary-container":"#fed65b","secondary-fixed-dim":"#e9c349","on-primary-fixed":"#002113","on-tertiary-fixed-variant":"#852128","inverse-surface":"#31302d","inverse-on-surface":"#f3f0eb","primary-fixed-dim":"#abcfb8","on-primary":"#ffffff","surface-container":"#f0ede9","surface-tint":"#456553","outline":"#727973","background":"#fcf9f4","on-secondary-container":"#745c00","surface":"#fcf9f4","surface-container-highest":"#e5e2dd","surface-variant":"#e5e2dd","on-background":"#1c1c19","on-tertiary-container":"#f77577","surface-bright":"#fcf9f4","on-tertiary-fixed":"#410008","primary-fixed":"#c7ebd4","surface-container-low":"#f6f3ee","surface-dim":"#dcdad5","on-primary-container":"#83a590","on-surface-variant":"#424843"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xs":"0.25rem","space-md":"1rem","gutter-tablet":"1.5rem","space-sm":"0.5rem","gutter-desktop":"2rem","margin":"1.25rem","margin-tablet":"2rem","margin-desktop":"3rem","gutter":"1rem","space-lg":"1.5rem","space-xl":"2.5rem"},fontFamily:{"headline-lg":["Epilogue"],"display-hero-mobile":["Epilogue"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-md":["Epilogue"],"body-sm":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Epilogue"],"display-hero":["Epilogue"]},fontSize:{"headline-lg":["1.75rem",{"lineHeight":"2.125rem","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero-mobile":["2rem",{"lineHeight":"2.375rem","letterSpacing":"-0.015em","fontWeight":"700"}],"label-sm":["0.6875rem",{"lineHeight":"0.875rem","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.02em","fontWeight":"600"}],"headline-md":["1.375rem",{"lineHeight":"1.75rem","letterSpacing":"-0.005em","fontWeight":"600"}],"body-sm":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-sm":["1.125rem",{"lineHeight":"1.5rem","fontWeight":"600"}],"display-hero":["2.5rem",{"lineHeight":"2.875rem","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_12px_rgba(27,59,43,0.06)]"><div class="h-20 max-w-[1200px] mx-auto px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Brand logo. - Primary color: #1b3b2b
+- Font: epilogue
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XHNkUdTb-wln6PW8PqnzDX98N0CVx_i_RHkOaliR5NwKb6Jb5O1mE0U6Z3EXx7cTUlrjNCMjdELIuIIzOuR1W45l3VniJxmkmXbMOPLkYzaO1Q8EhJNaDELpiRV3awLNxTbgqsTi7_tdTJy7VkLRectAq4ltS3YXFTahg20VAjEam34tqAVnDzUwGKBw9-aQ9H1FwETqOoUoGqIF85etAHsitxDkgfEyXSIMCwfp5sauPGRMpbtnD4OLM"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Arbolia Noël</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold"><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="coleccion-2024" href="#">Colección 2024</a><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="como-funciona" href="#">Cómo Funciona</a><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="kits-y-estilo" href="#">Kits & Estilo</a><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="sostenibilidad-circular" href="#">Sostenibilidad Circular</a><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="opiniones" href="#">Opiniones</a><a class="text-on-surface-variant font-label-md text-label-md tracking-wider uppercase transition-colors hover:text-primary" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-space-md"><a class="hidden lg:flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors font-label-sm text-label-sm tracking-wide" href="tel:+34910008899"><span class="material-symbols-outlined text-[18px] text-secondary">call</span><span>+34 910 008 899</span></a><a class="inline-flex items-center justify-center px-space-md py-space-sm rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg tracking-wide shadow-[0_4px_16px_rgba(27,59,43,0.15)] hover:bg-primary transition-all" data-path="reserva-inmediata" href="#">Reservar Mi Árbol</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-20rem)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="w-full relative overflow-hidden bg-surface py-space-xl">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Column: Copy & Value Proposition -->
+<div class="lg:col-span-6 flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-secondary-fixed/50 w-fit">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-secondary-fixed">Temporada 2024 · Cupos Limitados</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight leading-tight">
+          La magia de un árbol natural en tu hogar, <span class="italic font-normal">sin complicaciones</span>.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+          Cultivo sostenible certificado de alta montaña. Lo entregamos con mimo, lo instalamos con base hidratadora en tu salón y tras Reyes lo recogemos para replantado o compostaje ecológico.
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center justify-center px-space-lg py-space-md rounded-lg bg-secondary-container text-on-secondary-container font-label-lg text-label-lg shadow-md hover:bg-secondary-fixed-dim transition-all" href="#catalogo">
+            Elegir mi Árbol
+            <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center px-space-lg py-space-md rounded-lg bg-surface-container-high text-primary font-label-lg text-label-lg hover:bg-surface-container-highest transition-all" href="#proceso">
+            Ver Proceso Atelier
+          </a>
+</div>
+<!-- 3 Quick Value Props -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[26px]">forest</span>
+<span class="font-label-md text-label-md text-primary">100% Sostenible</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bosque regenerativo certificado</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[26px]">pan_tool</span>
+<span class="font-label-md text-label-md text-primary">Guante Blanco</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Montaje e hidratación en salón</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[26px]">calendar_today</span>
+<span class="font-label-md text-label-md text-primary">Fecha Exacta</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Entrega y recogida programada</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Visual Showcase -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-xl aspect-[3/4] max-h-[640px] w-full">
+<img alt="Árbol de Navidad natural iluminado en salón acogedor con chimenea" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1UDw2uPw6U95jt9tU6bNPFja5hsica4kLsguWkHq8-fL_jkRNTd22YZMlvd1UWhHEBS__YV67oFPeiz-74bb938ib7bkzH21-FmJUqpjDp1V2QoOVJAl6nqXRs0QyfR-5p8pty45uZclHTkm4WJxzVvKdCCHbmvVFpGShFTgYDX0WGKSDXJTnKi0leYFRoAUb5_XfgWp6E8sRJNBf97umk2qdAXHc5BCjUpwE3mLsUKuH017M13RJ-ub7U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 p-space-md rounded-xl bg-surface/90 backdrop-blur-md shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[28px]" style="font-variation-settings: 'FILL' 1;">eco</span>
+<div>
+<span class="block font-label-md text-label-md text-primary">Ejemplar Abies Nordmann 2.10m</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Instalado con cesta de mimbre y base de agua</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-wider px-space-xs py-1 rounded bg-secondary-fixed/40">Atelier Pick</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE RESERVATION BAR -->
+<section class="w-full bg-surface-container-low py-space-lg shadow-sm">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop">
+<form class="p-space-md md:p-space-lg rounded-xl bg-surface-container-lowest shadow-md grid grid-cols-1 md:grid-cols-4 gap-space-md items-end">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-primary uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">potted_plant</span>
+            Modalidad de Árbol
+          </label>
+<select class="w-full h-12 px-space-md rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary cursor-pointer">
+<option>Abies Nordmann (Cortado Fresco)</option>
+<option>Picea Abies (Vivo con Raíz en Maceta)</option>
+<option>Abies Nobilis (Azulado Silvestre)</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-primary uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">straighten</span>
+            Altura en Salón
+          </label>
+<select class="w-full h-12 px-space-md rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary cursor-pointer">
+<option>Compacto (1.50m - 1.80m)</option>
+<option selected="">Clásico Imperial (1.80m - 2.10m)</option>
+<option>Gran Salón (2.10m - 2.40m)</option>
+<option>Techado Catedral (> 2.50m)</option>
+</select>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm text-primary uppercase tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">location_on</span>
+            Ciudad de Entrega
+          </label>
+<select class="w-full h-12 px-space-md rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary cursor-pointer">
+<option>Madrid & Área Metropolitana</option>
+<option>Barcelona & Maresme</option>
+<option>Valencia & Alrededores</option>
+<option>Sevilla & Aljarafe</option>
+<option>Bilbao & Getxo</option>
+</select>
+</div>
+<button class="w-full h-12 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg tracking-wide hover:bg-primary-container transition-all flex items-center justify-center gap-2 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">search</span>
+          Consultar Disponibilidad
+        </button>
+</form>
+</div>
+</section>
+<!-- COLECCIÓN NOËL 2024 -->
+<section class="w-full py-space-xl bg-surface" id="catalogo">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Colección Noël 2024</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Nuestros Ejemplares Silvestres</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+            Seleccionados individualmente en viveros de alta montaña y mimados hasta el día de entrega para conservar su aroma y verdor perpetuo.
+          </p>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container p-1 rounded-full">
+<button class="px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-sm">Todos</button>
+<button class="px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-primary font-label-sm text-label-sm">Raíz Viva</button>
+<button class="px-space-md py-space-xs rounded-full text-on-surface-variant hover:text-primary font-label-sm text-label-sm">Cortado Fresco</button>
+</div>
+</div>
+<!-- 3-Column Specimen Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Card 1 -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Dense, symmetrical fresh Abies Nordmann Christmas tree in an elegant brass stand with soft studio lighting and warm tones against an ivory backdrop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJGF7-n_v1cN9Hj7l9O-XDb63sqADNhMHA97gNJ9XcA2Ud4Lmv0mhFF34SgrBPMeq0I4ROaIJkrTdvodP45m3-AWfjXhn7DkZ23Vw-ru-mk7CJjxBAij2lBwyE_en8wH_Z1Q-gvRE9XxP4MuXIuFMW_7SGetdCczw4ll_AFmApRecGNW7I23PCIGL_LzzHG-RNcXsGJ4QQSnX-K5hR-irOIePCkxPPvT97L7c2L2Zh-DiA93ozJI6j"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-primary font-bold shadow-sm">Favorito del Atelier</span>
+<span class="absolute top-4 right-4 px-space-sm py-1 rounded-full bg-secondary-fixed/80 backdrop-blur-sm font-label-sm text-label-sm text-on-secondary-fixed font-semibold">No suelta agujas</span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-primary">Abies Nordmann Imperial</h3>
+<span class="font-label-sm text-label-sm text-secondary font-bold">1.80m - 2.10m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Frondosidad densa, porte piramidal equilibrado y acículas de tacto sedoso que retienen su brillo durante toda la festividad.
+              </p>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm pt-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">water_drop</span>
+<span>Incluye base reservorio de agua</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<div>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Alquiler Circular</span>
+<span class="font-headline-md text-headline-md text-primary">89 €</span>
+</div>
+<button class="px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm">
+                Reservar Ejemplar
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Stately Abies Nobilis Noble Fir Christmas tree with soft blue-green needles and layered boughs adorned with understated wooden ornaments, warm ambient daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0X8irNdJE0h4hx4ezzg_h-BWC2xBojN2GKkj5TA7CzlJZQ58FWHdaSN5yr1sa9KCvBqJN82g4rnR-DTG93ihcskIGoSgvLLn_kZdfo7q5VSyvE1F27O7ULgxCoUmY9YuIU5SCuCV4tC_RzVVC7E4eENnm4CiYtOqt3xkMXBj3kbwEy5j6aHq74q71FdyWA_KeAOlWMlxXZP5gmG0POxJOLduX4VJ2lvUGjjPGpz1-XfajGdzOTdap"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-primary font-bold shadow-sm">Aroma Intenso</span>
+<span class="absolute top-4 right-4 px-space-sm py-1 rounded-full bg-tertiary-fixed font-label-sm text-label-sm text-on-tertiary-fixed font-semibold">Gran Porte</span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-primary">Abies Nobilis Escandinavo</h3>
+<span class="font-label-sm text-label-sm text-secondary font-bold">2.00m - 2.40m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Matices verde azulados incomparables y ramas rígidas idóneas para sostener ornamentación pesada de vidrio o bronce.
+              </p>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm pt-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">eco</span>
+<span>Fragancia alpina persistente</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<div>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Alquiler Circular</span>
+<span class="font-headline-md text-headline-md text-primary">119 €</span>
+</div>
+<button class="px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm">
+                Reservar Ejemplar
+              </button>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flex flex-col rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm hover:shadow-xl transition-all duration-300 group">
+<div class="relative aspect-[4/5] bg-surface-container-low overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Living Picea Abies Norway spruce in a woven wicker pot with intact roots, lush natural greenery, standing by a sunlit cottage window with timber details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9D4Qr32xzLmjogS7a8mDVHb4-bdOyXCYd3mmvP5heUMxGMk6O4zaA0AZpZpzQkJz0JYHAf5_wRrD8RIGpSFYTZaeF5dCs4MnZZMMR2mxmJutrJq_5yrxJCmtPoZQgah57nAWpCJJwk2bwQK0ngHRDKwI6RETjE-C7yHz3qe_dju0rMp6Z77-3WbNcO9dkjCAQtcAZylgiV75ZNQfn2vdLMTGjKM5jbzwq8Ug3cZ7iHXXwmqoA5N1E"/>
+<span class="absolute top-4 left-4 px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">100% Replantable Vivo</span>
+<span class="absolute top-4 right-4 px-space-sm py-1 rounded-full bg-surface/90 backdrop-blur-sm font-label-sm text-label-sm text-primary font-semibold">Con Raíz</span>
+</div>
+<div class="p-space-lg flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-primary">Picea Abies en Maceta</h3>
+<span class="font-label-sm text-label-sm text-secondary font-bold">1.50m - 1.80m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Ejemplar con cepellón intacto en cesta de fibras orgánicas. Tras las fiestas vuelve a las sierras protegidas para continuar creciendo.
+              </p>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm pt-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">nature_people</span>
+<span>Certificado de replantación oficial</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<div>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Alquiler Circular</span>
+<span class="font-headline-md text-headline-md text-primary">75 €</span>
+</div>
+<button class="px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm">
+                Reservar en Maceta
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CÓMO FUNCIONA EL ATELIER (GUANTE BLANCO) -->
+<section class="w-full py-space-xl bg-surface-container" id="proceso">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Experiencia Sin Esfuerzo</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Servicio Guante Blanco en 3 Pasos</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Nos encargamos de toda la complejidad logística. Tú solo disfrutas de la calidez botánica en familia.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/50 flex items-center justify-center text-primary font-headline-sm text-headline-sm">
+            01
+          </div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Selección & Luces de Autor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Escoges la variedad que mejor armonice con tu salón. Puedes añadir el servicio de pre-instalación de micro-fairy lights en tono ámbar cálido distribuidas rama a rama.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>Reserva garantizada de franja horaria</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/50 flex items-center justify-center text-primary font-headline-sm text-headline-sm">
+            02
+          </div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Entrega e Instalación Impecable</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Nuestros instaladores botanistas ubican el ejemplar, montan la base con reserva hídrica, lo nivelan a plomo y aplican una nutrición inicial sin ensuciar tu estancia.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">cleaning_services</span>
+<span>Cero agujas en el suelo garantizado</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/50 flex items-center justify-center text-primary font-headline-sm text-headline-sm">
+            03
+          </div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-primary">Retirada & Retorno a la Naturaleza</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              A partir del 7 de enero acudimos con fundas herméticas. Los árboles vivos vuelven a la tierra y el resto se transforma en manto orgánico compostado para reforestar.
+            </p>
+</div>
+<div class="pt-space-sm flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[18px]">recycling</span>
+<span>Huella de carbono 100% compensada</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- KITS DE ESTILO & COMPLEMENTOS ARTESANALES -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Ornamentación Curada</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Kits de Estilo & Complementos Artesanales</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">
+          Evita los plásticos fugaces. Nuestros kits contienen piezas nobles manufacturadas por artesanos europeos en latón, lino, madera tallada y vidrio soplado.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Kit 1 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col md:flex-row gap-space-md items-center">
+<div class="w-full md:w-1/2 aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Artisanal Nordic minimalist Christmas ornaments flat lay, handmade frosted glass baubles, natural pinecones, birch stars, raw linen ribbons on warm neutral stone background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBe640w-g9Vuw8j-hMQlw54beeLDwYKVLi3SpzNi1yFEBN2aBr9m1FYNrkhwfQBjJpfNVeKgR0YnNl4V9n6HAysehJg2i-VKGNKq3VEWsp1jIdmrx5dGdZOAKbuxiryfOrjpyXitxs087vH4-EZnQDI84K3p6T4bl4WAYBkwkV_WXzrHFR56VHf9eKEXD_LE_jWtRM-Yuc46tplEMfjwCt9WMUSR4qYl8WNwTVvoM88w7owNn9rIN_y"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Paleta Calmada</span>
+<h3 class="font-headline-md text-headline-md text-primary">Kit Nordic Minimalist</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Esferas de vidrio artesanal soplado, piñas recolectadas de pinar pirenaico, estrellas de madera de abedul y cintas de lino crudo.
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary">+ 45 €</span>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-highest text-primary font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all">
+                Añadir al Pedido
+              </button>
+</div>
+</div>
+</div>
+<!-- Kit 2 -->
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-sm flex flex-col md:flex-row gap-space-md items-center">
+<div class="w-full md:w-1/2 aspect-square rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Rich holiday Christmas styling kit flat lay, deep burgundy velvet silk ribbons, vintage antique brass pendants, delicate micro beaded warm golden garlands on linen texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDi2iwI30v4f8-Nr8hSyXiXhgCVpEkmnsWJA0yS-kExXttvD4WT3AXFUWS78xzisWBckYfRNgFxxWenAu049w6F4_1snn1GaWPuqvpobLJiCBLxjoNNaTdOrrrm55AEcqIw5rjwVb_Y-c67ibl4rE6pMeGqNw8oQjbGfwOqStqsI7O1nP3MEh10CmQX0Fe-_x46lAtEo8LMDSL7KIEZGIavuIOKIdr5NKqPoDj6TLN-mVcsu-LWBhl7"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary-container font-bold">Lujo Festivo</span>
+<h3 class="font-headline-md text-headline-md text-primary">Kit Grand Noël Royale</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Lazos de terciopelo borgoña de seda, colgantes geométricos en latón envejecido y guirnaldas continuas de microesferas doradas.
+            </p>
+<div class="flex items-center justify-between pt-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary">+ 65 €</span>
+<button class="px-space-md py-space-xs rounded-lg bg-surface-container-highest text-primary font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-all">
+                Añadir al Pedido
+              </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SOCIAL PROOF & RESEÑAS -->
+<section class="w-full py-space-xl bg-surface-container-low">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop flex flex-col gap-space-xl">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md p-space-lg rounded-2xl bg-primary text-on-primary shadow-md">
+<div class="flex flex-col gap-1">
+<span class="font-display-hero text-display-hero text-secondary-fixed">4.9 / 5</span>
+<span class="font-body-md text-body-md text-on-primary-container">En más de 800 hogares decorados en 2023</span>
+</div>
+<div class="flex flex-col gap-1 md:border-l md:border-white/10 md:pl-space-md">
+<span class="font-display-hero text-display-hero text-secondary-fixed">100%</span>
+<span class="font-body-md text-body-md text-on-primary-container">Garantía de frescura intacta hasta el 10 de enero</span>
+</div>
+<div class="flex flex-col gap-1 md:border-l md:border-white/10 md:pl-space-md">
+<span class="font-display-hero text-display-hero text-secondary-fixed">0 Plásticos</span>
+<span class="font-body-md text-body-md text-on-primary-container">Economía botánica plenamente circular</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+              "Insuperable servicio. Llegaron puntuales a nuestro piso en Justicia, montaron la base y el olor a bosque inundó la casa hasta pasada la Epifanía sin soltar una sola púa."
+            </p>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Beatriz & Gonzalo S.</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Madrid · Abies Nordmann Imperial 2.10m</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+              "Para nosotros era fundamental no comprar un árbol de usar y tirar. Saber que el nuestro volvió a replantarse en las montañas de Guadarrama nos llena de paz."
+            </p>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Clara Miret</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Barcelona · Picea Abies con Cepellón</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface italic">
+              "El kit de luces pre-instaladas nos ahorró el caos habitual de desenredar cables. La recogida el 8 de enero fue impecable, sin rastro alguno en el salón."
+            </p>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary">Álvaro de la Riva</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Valencia · Abies Nobilis 2.40m</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ & CONCIERGE WHATSAPP BANNER -->
+<section class="w-full py-space-xl bg-surface">
+<div class="max-w-[1200px] mx-auto px-gutter-desktop grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- FAQ Column -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Dudas Habituales</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">Preguntas Frecuentes</h2>
+</div>
+<div class="flex flex-col gap-space-sm">
+<details class="group p-space-md rounded-lg bg-surface-container-low cursor-pointer [&_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between font-headline-sm text-headline-sm text-primary list-none">
+<span>¿Cómo se mantiene hidratado el árbol dentro de casa?</span>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-secondary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs leading-relaxed">
+              Todos nuestros abetos cortados se entregan con un soporte hidrostático de precisión que alberga 2.5L de agua. Solo debes reponer un vaso de agua cada 2 días para mantener su frescura y verdor intactos.
+            </p>
+</details>
+<details class="group p-space-md rounded-lg bg-surface-container-low cursor-pointer [&_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between font-headline-sm text-headline-sm text-primary list-none">
+<span>¿Qué ocurre si vivo en un piso sin ascensor?</span>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-secondary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs leading-relaxed">
+              Nuestro servicio de Guante Blanco contempla la subida hasta cualquier planta. Solo te solicitamos indicarlo en las notas de tu reserva para asignar la dotación adecuada de instaladores.
+            </p>
+</details>
+<details class="group p-space-md rounded-lg bg-surface-container-low cursor-pointer [&_summary::-webkit-details-marker]:hidden">
+<summary class="flex items-center justify-between font-headline-sm text-headline-sm text-primary list-none">
+<span>¿Puedo reprogramar la fecha de recogida tras Reyes?</span>
+<span class="material-symbols-outlined transition-transform duration-300 group-open:rotate-180 text-secondary">expand_more</span>
+</summary>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs leading-relaxed">
+              Por supuesto. A través de nuestro enlace de gestión podrás elegir libremente cualquier día entre el 7 y el 15 de enero en turnos de mañana o tarde.
+            </p>
+</details>
+</div>
+</div>
+<!-- Concierge Card -->
+<div class="lg:col-span-5 flex flex-col justify-between p-space-lg rounded-2xl bg-secondary-container text-on-secondary-container shadow-md">
+<div class="flex flex-col gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-secondary flex items-center justify-center text-on-secondary">
+<span class="material-symbols-outlined text-[24px]">chat</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-secondary-container">¿Necesitas asesoramiento personalizado para tu salón?</h3>
+<p class="font-body-sm text-body-sm text-on-secondary-container/90">
+            Envíanos una fotografía de tu espacio o indícanos tus techos. Nuestro equipo botánico te recomendará la especie y escala perfecta en menos de 15 minutos.
+          </p>
+</div>
+<div class="pt-space-md flex flex-col gap-space-xs">
+<a class="w-full py-space-md px-space-md rounded-lg bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 hover:bg-primary-container transition-all shadow-sm" href="https://wa.me/34910008899" target="_blank">
+<span class="material-symbols-outlined text-[20px]">forum</span>
+            Hablar con Concierge Atelier
+          </a>
+<span class="text-center font-label-sm text-label-sm text-on-secondary-container/80 pt-1">
+            Atención prioritaria · 09:30 a 20:30 h
+          </span>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface pt-space-xl pb-space-lg shadow-[0_-1px_12px_rgba(27,59,43,0.03)]"><div class="max-w-[1200px] mx-auto px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md text-primary">Arbolia Noël</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Atelier boutique de alquiler y retorno botánico de abetos vivos para Navidad. Fusionamos tradición consciente, diseño de autor y conservación forestal certificada.</p><div class="pt-space-xs flex items-center gap-space-xs text-secondary font-label-sm text-label-sm"><span class="material-symbols-outlined text-[16px]">eco</span><span>100% Replantabilidad Garantizada</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Compromiso Circular</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>Cultivo en viveros regenerativos</li><li>Logística de entrega y recogida neutra</li><li>Replantación y reintegración en monte alto</li><li>Compostaje de especímenes maduros</li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Atelier & Asistencia</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><p>Calle Claudio Coello 48, Salamanca, Madrid</p><p>Lunes a Sábado: 09:30 – 20:30 h</p><p>Domingos: 10:00 – 15:00 h</p><a class="text-primary font-label-md text-label-md hover:underline pt-space-xs" href="mailto:concierge@arbolianoel.com">concierge@arbolianoel.com</a></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Reserva Privada</span><p class="font-body-sm text-body-sm text-on-surface-variant">Suscríbase al cuaderno de reservas anticipadas y reciba acceso prioritario a especímenes singulares.</p><form class="flex flex-col gap-space-xs"><input class="w-full px-space-md py-space-sm bg-surface rounded-lg font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" placeholder="Su correo electrónico..." type="email"/><button class="w-full py-space-sm px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md tracking-wide hover:bg-primary-container transition-colors" type="button">Confirmar Suscripción</button></form></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-sm text-label-sm"><span>© 2024 Arbolia Noël Atelier S.L. Todos los derechos reservados.</span><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" data-path="terminos-del-alquiler" href="#">Términos del Alquiler</a><a class="hover:text-primary transition-colors" data-path="politica-de-privacidad" href="#">Política de Privacidad</a><a class="hover:text-primary transition-colors" data-path="protocolo-botanico" href="#">Protocolo Botánico</a></div></div></div></footer></body></html>
